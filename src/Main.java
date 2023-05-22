@@ -37,8 +37,8 @@ public class Main {
                 saldo += valor;
                 System.out.println("\nValor de " + valor + " recebido com sucesso");
                 System.out.println("\nNovo saldo: " + saldo + "\n");
-            } else if (opcao != 4) {
-                System.out.println("Opção inválida!");
+            } else if (opcao > 4) {
+                System.out.println("Opção inválida !\n");
             }
         }
         System.out.println("Finalizando operação !");
